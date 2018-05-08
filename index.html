@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Matthew Gonzalez</b></a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#descriptions" class="w3-bar-item w3-button">Descriptions</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="C:/Users/matth/Desktop/Photography/Assignment 2/A2P4_16_GonzalezMatthew_Abstraction.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+      <h1 class="w3-xxxlarge w3-text-white"><span>Creative developer</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"><b>Projects</b></h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Matt.Chat</div>
+          <a href="https://final-project-chat.herokuapp.com">
+            <img src="chat-pic.jpg" alt="Chat application" style="width:100%">
+          </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Alexa Skill</div>
+        <img src="alexa.jpg" alt="Amazon Alexa skill" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Twitter Bot</div>
+          <a href="https://twitter.com/PerSourcesBot">
+            <img src="twitter-bot.jpg" alt="Twitter profile" style="width:100%">
+          </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">NBA API</div>
+          <a href="https://gonzalezm6.github.io/Project1-API/">
+            <img src="api.jpg" alt="Website screenshot" style="width:100%">
+          </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">HTML Cheat-sheet</div>
+          <a href="https://github.com/gonzalezm6/Cheat-Sheet/blob/master/html.md">
+            <img src="html-cs.jpg" alt="Website Screenshot" style="width:99%">
+          </a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">CSS Cheat-sheet</div>
+          <a href="https://github.com/gonzalezm6/Cheat-Sheet/blob/master/css.md">
+            <img src="css-cs.jpg" alt="Website Screenshot" style="width:99%">
+          </a>      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">JS Cheat-sheet</div>
+          <a href="https://github.com/gonzalezm6/Cheat-Sheet/blob/master/js.md">
+            <img src="js-cs.jpg" alt="Website Screenshot" style="width:99%">
+          </a>      </div>
+    </div>
+<!--
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
+        <img src="/w3images/house3.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+-->
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"><b>About</b></h3>
+    <p>Hey there! I'm Matthew, a creative developer based in Los Angeles. Currently, I am working toward a B.S. in Applied Computer Science at Woodbury University. I would like to become a member of a company that would allow me to further develop my programming skills. In return, I can offer dedication, a willingness to learn, and an ability to work in teams under strict deadlines. 
+    </p>
+  </div>
+    
+  <!-- Descriptions Section-->
+  <div class="w3-container w3-padding-32" id="desciptions">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"><b>Project Descriptions</b></h3>
+  </div>
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <h3>Matt.Chat</h3>
+      <p class="w3-opacity">Made with socket.io</p>
+      <p>A chat application deployed onto a live server. All users are notified when a new user has connected. When at least two users are connected, each one is notified when the other is typing.</p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <h3>Alexa Skill</h3>
+      <p class="w3-opacity">Dating tips</p>
+      <p>A fact skill created to provide users with relationship advice. The amount of facts within the skill is currently limited, and I intend to expand this list.</p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <h3>Twitter Bot</h3>
+      <p class="w3-opacity">PerSources bot</p>
+      <p>This bot pokes fun at the mass amount of sourceless news that is placed out among social media platforms. It has been programmed to send out a single tweet every hour.</p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <h3>NBA-API</h3>
+      <p class="w3-opacity">Data Visualization</p>
+      <p>This is my first successful attempt at accessing the contents of an API. This specific API holds the information for the 2018 Los Angeles Lakers' roster. </p>
+    </div>
+  </div>
+
+  
+<!-- End page content -->
+</div>
+
+</body>
+</html>
